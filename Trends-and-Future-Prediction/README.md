@@ -10,7 +10,9 @@ This repository contains the complete code and analysis for exploring alcohol-re
 3. [Datasets Used](#datasets-used)
 4. [Methodology](#methodology)
 5. [Results](#results)
-6. [R Code and Instructions](#r-code-and-instructions)
+6. [Run the Code](#run-the-code)
+   - [Option 1: Google Colab](#option-1-google-colab)
+   - [Option 2: Clone Repository](#option-2-clone-repository)
 7. [Key Libraries](#key-libraries)
 
 ---
@@ -89,16 +91,27 @@ The following steps were performed to clean, preprocess, analyze, and model the 
 
 ---
 
-## **R Code and Instructions**
-### Repository Structure
-```plaintext
-Alcohol-Mortality-Analysis/
-├── code/
-│   ├── 1_data_cleaning.R      # Data preprocessing and cleaning script
-│   ├── 2_data_analysis.R      # Statistical and predictive modeling
-│   ├── 3_visualization.R      # Plot generation and visual analysis
-├── data/
-│   ├── raw/                   # Raw datasets (not included due to size/privacy)
-│   ├── processed/             # Cleaned and reshaped datasets
-├── docs/                      # Supporting documentation
-├── README.md                  # Project overview
+## **Run the Code**
+
+### **Option 1: Google Colab**
+Run the project code directly in your browser using Google Colab. This option requires no setup.
+
+1. Open the Colab notebook:  
+   [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/your-colab-notebook-link)
+
+2. Follow the instructions in the notebook to run each section of the code:
+   - Data Cleaning
+   - Data Analysis
+   - Visualization
+   - Predictive Modeling
+
+3. Output visualizations and results will be displayed directly in the notebook.
+
+---
+
+### **Option 2: Clone Repository**
+You can also clone the repository and run the code locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/Alcohol-Mortality-Analysis.git
