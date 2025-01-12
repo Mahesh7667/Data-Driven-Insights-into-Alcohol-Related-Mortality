@@ -1,57 +1,54 @@
 # Trends and Future-Prediction
 
-Welcome to my project page! This project explores the critical issue of alcohol-related mortality using data analysis and machine learning techniques. The focus is on identifying trends, key predictors, and insights to inform public health policies and interventions.
+Welcome to my project page! This project explores alcohol-related mortality trends and uncovers key insights into the factors driving these trends. Using data analysis and visualizations, the project aims to highlight important patterns and provide valuable information to guide public health decisions.
 
 ---
 
-## 🌟 **Highlights of the Project**
+## **What Is This Project About?**
 
-- **Comprehensive Analysis**: Examined alcohol-specific mortality trends across age groups and regions.
-- **Key Findings**:
-  - Alcoholic liver disease is the leading cause of deaths related to alcohol.
-  - Middle-aged individuals (ages 45–64) are at the highest risk.
-  - Mortality rates have risen sharply post-2015.
-  - England contributes the most deaths overall, while Scotland has a higher per-capita burden.
-- **Predictive Modeling**: Built a Random Forest model to predict future mortality trends with 45% accuracy (\(R^2\)).
+This project looks at alcohol-specific deaths in the United Kingdom, answering key questions like:
+1. **What are the trends in alcohol-related deaths over time?**
+2. **Which age groups and regions are most affected?**
+3. **What are the main causes of alcohol-related deaths?**
+4. **Can we use data to predict future trends?**
 
 ---
 
-## 🎯 **Research Questions**
-1. **What are the historical trends in alcohol-specific deaths by age group and geographic region?**
-2. **What are the key predictors of high mortality rates, and how well can we predict future trends using historical data?**
+## **Key Findings**
+
+- **Alcoholic Liver Disease** is the leading cause of alcohol-specific deaths, responsible for over 70% of fatalities.
+- **Middle-aged individuals (ages 45–64)** are the most at risk, with rising death rates since 2015.
+- **Regional Differences**:
+  - **England** has the highest number of deaths overall.
+  - **Scotland** shows the highest per-capita mortality rate.
+- **Trends**: Alcohol-specific deaths have been steadily increasing in recent years, especially in high-risk groups.
 
 ---
 
-## 📊 **Key Findings**
+## **Visual Highlights**
 
-### 1. Trends in Alcohol-Specific Mortality
-- **Age Groups**: Mortality is highest among individuals aged 45–64, with deaths steadily increasing post-2015.
-- **Regions**:
-  - England: The highest total deaths.
-  - Scotland: Higher per-capita mortality rates.
-  - Wales and Northern Ireland: Lower contributions but notable trends in certain age groups.
-- **Causes**:
-  - Alcoholic liver disease accounts for over 70% of deaths.
-  - Mental and behavioral disorders due to alcohol rank second.
+### 1. **Top Causes of Death**
+The primary cause of alcohol-related deaths is alcoholic liver disease, followed by mental and behavioral disorders due to alcohol use.
 
-### 2. Predictors of Mortality
-- **Top Predictors**:
-  - Total deaths across all ages (`All.ages`) and age group-specific mortality (`Age_Group`) are the most critical predictors.
-  - Geographic region (`Region`) also significantly influences mortality trends.
-  - Gender variables (`Sex`) have a relatively smaller impact.
-
-- **Model Performance**:
-  - Random Forest Model: RMSE = 18.57, \(R^2 = 0.45\).
-  - Linear Regression Model: RMSE = 19.56, \(R^2 = 0.39\).
-  - **Visualizations**: Trend plots and residual analyses reveal the model's strengths and areas for improvement.
+![Top 10 Causes of Death](images/top_causes.png)
 
 ---
 
-## 🔍 **How to Explore the Project**
+### 2. **Trends Over Time**
+Deaths have increased over the last two decades, with significant spikes post-2015.
 
-This project is fully open-source and hosted on GitHub. You can explore:
-1. **Key Findings and Visualizations**: Access the summary and graphs showing trends, predictors, and causes.
-2. **R Code**: Download the R scripts used for data cleaning, analysis, and visualization.
-3. **Step-by-Step Instructions**: Replicate the analysis or build upon it using the provided instructions.
+![Alcohol Mortality Trends by Region](images/trends_by_region.png)
 
 ---
+
+## **Why Does This Matter?**
+
+Understanding alcohol-specific mortality is crucial for:
+- **Policymakers**: Developing targeted interventions for high-risk groups and regions.
+- **Healthcare Providers**: Prioritizing resources to address the leading causes of alcohol-related deaths.
+- **Public Awareness**: Educating individuals about the risks and trends of alcohol consumption.
+
+---
+
+Thank you for visiting, and I hope this project sparks meaningful discussions about public health and data-driven solutions!
+
