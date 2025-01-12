@@ -1,4 +1,4 @@
-# Data-Driven Insights into Alcohol-Related Mortality
+# Trends and Future-Prediction
 
 Welcome to my project page! This project explores the critical issue of alcohol-related mortality using data analysis and machine learning techniques. The focus is on identifying trends, key predictors, and insights to inform public health policies and interventions.
 
