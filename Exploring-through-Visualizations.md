@@ -25,7 +25,7 @@ Every life saved represents a win for individuals, families, and communities, re
 - **What it shows**: Trends in alcohol-specific deaths across different age groups and years.
 - **Key takeaway**: Middle-aged groups (40–69 years) consistently face the highest risk. Death rates have surged in recent years, especially from 2015 onward.
 - **Why it matters**: This visualization reveals where interventions are needed most urgently, both in terms of age demographics and time periods.
-<iframe src="output/heatmap.html" width="800" height="600"></iframe>
+<img src="output/heatmap.png" width="800" height="600"></iframe>
 
 ### 2. **Geospatial Map**
 - **What it shows**: Regional differences in alcohol-specific deaths for the baseline year of 2001.
@@ -37,14 +37,14 @@ Every life saved represents a win for individuals, families, and communities, re
 - **What it shows**: Disparities in alcohol-specific deaths by age group and sex.
 - **Key takeaway**: Males dominate across all age groups, with a sharp peak in the 50–59 age range. Females are consistently affected at lower rates.
 - **Why it matters**: This visualization underscores the need for gender-specific health interventions and further research into the underlying causes of these disparities.
-<iframe src="output/scatterPlot.html" width="800" height="600"></iframe>
+<img src="output/scatterPlot.png" width="800" height="600"></iframe>
 
 
 ### 4. **Bubble Plot**
 - **What it shows**: Regional and sex-based differences in alcohol-specific deaths.
 - **Key takeaway**: England and Scotland dominate in terms of total deaths, with males disproportionately affected. Wales and Northern Ireland report the fewest deaths.
 - **Why it matters**: The bubble plot visually combines regional and sex-based differences, providing a holistic view of where interventions should be focused.
-<iframe src="output/bubblePlot.html" width="800" height="600"></iframe>
+<img src="output/bubblePlot.png" width="800" height="600"></iframe>
 
 ## Accessible Insights for Everyone
 We designed this project with accessibility in mind to ensure that its insights are clear and actionable for a broad audience:
