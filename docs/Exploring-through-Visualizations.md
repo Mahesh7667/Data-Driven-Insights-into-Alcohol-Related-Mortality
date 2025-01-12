@@ -1,39 +1,69 @@
-# Alcohol-Specific Deaths in the UK: A Data Visualization Project
+# Alcohol-Specific Deaths in the UK: Insights Through Visualizations
 
 ## Overview
-This repository contains a comprehensive analysis of alcohol-specific deaths in the UK, focusing on their variation across age, sex, region, and time. The project uses data from public health sources, such as Public Health England and the Office for National Statistics (ONS), to generate insightful visualizations. These visualizations aim to inform public health policies and interventions, highlighting critical trends and disparities.
+Alcohol-specific deaths are a growing public health issue in the United Kingdom. These deaths result from conditions directly caused by alcohol consumption, such as liver cirrhosis, alcohol poisoning, and alcoholic hepatitis. Understanding the patterns of these deaths is critical for tackling the significant social, economic, and healthcare challenges they create. This project uses clear, engaging visualizations to uncover how alcohol-specific deaths vary by age, sex, region, and time. The goal is to make these insights accessible to everyone, whether you're a policymaker, a healthcare provider, or simply someone who cares about public health.
 
-## Key Features
-- **Heatmap**: Visualizes temporal trends in alcohol-specific deaths across age groups from 2001 to 2021.
-- **Geospatial Map**: Displays regional disparities in alcohol-specific deaths for a baseline year (2001).
-- **Scatter Plot**: Illustrates age-sex distributions of deaths, highlighting demographic disparities.
-- **Bubble Plot**: Combines regional and sex-based differences in mortality rates.
+## What This Project Shows
+Our visualizations provide key insights into alcohol-specific deaths:
+1. **Who is most affected**: Middle-aged males (40–69 years) are disproportionately impacted, making them the most vulnerable demographic.
+2. **Where deaths are highest**: Scotland and northern England have the most alcohol-specific deaths, highlighting regional disparities.
+3. **How trends have changed**: Deaths have steadily increased over the years, especially from 2015 onward, pointing to an escalating public health crisis.
+4. **Differences between regions and sexes**: Males dominate in all regions, but Wales and Northern Ireland show significantly fewer deaths compared to Scotland and England.
 
-## Contents
-### **1. Data**
-- **`data/`**: Contains cleaned and preprocessed datasets used for the visualizations.
-  - `deathsbyindividualcause.xlsx`: Primary dataset.
-  - `alcoholspecificdeaths2021.xlsx`: Supplementary dataset.
-  - `uk_regions.geojson`: Geospatial data for mapping.
+These insights offer a comprehensive view of the issue, helping decision-makers prioritize interventions and allocate resources effectively.
 
-### **2. Code**
-- **`scripts/`**: R scripts for data cleaning, analysis, and visualization.
-  - `data_preprocessing.R`: Code for cleaning and reshaping the datasets.
-  - `visualization.R`: Code for generating the visualizations.
-  - `composite_visualization.R`: Combines all visualizations into a single dashboard.
+## Why This Matters
+Alcohol-specific deaths are preventable, and understanding the factors contributing to these fatalities is essential for saving lives. By highlighting trends and disparities, this project supports:
+- **Targeted Health Campaigns**: Public health initiatives can be tailored to at-risk groups, such as middle-aged males in high-mortality regions.
+- **Resource Allocation**: Policymakers can direct funding and resources to regions and populations most affected by alcohol-related harm.
+- **Informed Policy Development**: Insights from the data can shape policies like minimum alcohol pricing and expanded addiction recovery programs.
 
-### **3. Visualizations**
-- **`outputs/`**: Contains generated plots and composite visualizations.
-  - `heatmap.png`
-  - `scatter_plot.png`
-  - `bubble_plot.png`
-  - `geospatial_map.png`
-  - `composite_visualization.png`
+Every life saved represents a win for individuals, families, and communities, reducing the broader societal burden of alcohol-related harm.
 
-### **4. Documentation**
-- **`docs/`**: Project documentation and report sections.
-  - `knowledge_building.md`: Explains the significance of the topic and insights gained.
-  - `theoretical_frameworks.md`: Discusses the ASSERT framework and grammar of graphics.
-  - `accessibility.md`: Evaluates the accessibility of the visualizations.
-  - `visualization_choice.md`: Justifies visualization choices and discusses alternatives.
-  - `implications_and_improvements.md`: Reflects on insights and proposes enhancements.
+## Key Visualizations
+### 1. **Heatmap**
+- **What it shows**: Trends in alcohol-specific deaths across different age groups and years.
+- **Key takeaway**: Middle-aged groups (40–69 years) consistently face the highest risk. Death rates have surged in recent years, especially from 2015 onward.
+- **Why it matters**: This visualization reveals where interventions are needed most urgently, both in terms of age demographics and time periods.
+<iframe src="output/heatmap.html" width="800" height="600"></iframe>
+
+### 2. **Geospatial Map**
+- **What it shows**: Regional differences in alcohol-specific deaths for the baseline year of 2001.
+- **Key takeaway**: Scotland stands out with the highest mortality rates, while Wales and Northern Ireland report significantly fewer deaths.
+- **Why it matters**: The map highlights the geographic disparities in alcohol-related harm, supporting region-specific policy responses.
+<iframe src="output/geospatial.html" width="800" height="600"></iframe>
+
+### 3. **Scatter Plot**
+- **What it shows**: Disparities in alcohol-specific deaths by age group and sex.
+- **Key takeaway**: Males dominate across all age groups, with a sharp peak in the 50–59 age range. Females are consistently affected at lower rates.
+- **Why it matters**: This visualization underscores the need for gender-specific health interventions and further research into the underlying causes of these disparities.
+<iframe src="output/scatterPlot.html" width="800" height="600"></iframe>
+
+
+### 4. **Bubble Plot**
+- **What it shows**: Regional and sex-based differences in alcohol-specific deaths.
+- **Key takeaway**: England and Scotland dominate in terms of total deaths, with males disproportionately affected. Wales and Northern Ireland report the fewest deaths.
+- **Why it matters**: The bubble plot visually combines regional and sex-based differences, providing a holistic view of where interventions should be focused.
+<iframe src="output/bubblePlot.html" width="800" height="600"></iframe>
+
+## Accessible Insights for Everyone
+We designed this project with accessibility in mind to ensure that its insights are clear and actionable for a broad audience:
+- **Simple Visuals**: Each chart is designed to highlight key trends and disparities without overwhelming viewers with excessive detail.
+- **Interactive Potential**: Future updates may include interactive features like clickable maps, hover-based tooltips, and zooming capabilities for deeper exploration.
+- **Plain Language**: All explanations are straightforward and free of jargon, making the data meaningful for everyone.
+
+By removing barriers to understanding, we aim to make this critical information accessible to policymakers, healthcare providers, and the general public.
+
+## Why You Should Care
+Alcohol-related harm doesn’t just affect individuals—it impacts entire families, communities, and economies. These insights can:
+- Drive public health campaigns that save lives.
+- Inform government decisions on funding and resources.
+- Raise awareness of alcohol-related harm and its preventable nature.
+
+Understanding these patterns isn’t just about statistics; it’s about real people and real change. Together, we can address this public health crisis and build a healthier future.
+
+## How to Get Involved
+- **Share This Information**: Spread awareness in your community by sharing these insights.
+- **Support Policy Change**: Advocate for evidence-based policies, like minimum alcohol pricing or improved access to recovery programs.
+- **Collaborate**: If you work in public health, research, or policymaking, contact us to explore how these insights can support your work.
+
