@@ -1,14 +1,3 @@
-# IDS and viz
-
-## main page: https://mahesh7667.github.io/Data-Driven-Insights-into-Alcohol-Related-Mortality
-
-## IDS: [IDS](https://mahesh7667.github.io/Data-Driven-Insights-into-Alcohol-Related-Mortality/Trends-and-Future-Prediction)
-
-### Viz: [Vizzzz](https://mahesh7667.github.io/Data-Driven-Insights-into-Alcohol-Related-Mortality/Exploring-through-Visualizations)
-
-# Instructions to run the code
-
-
 # Data-Driven Insights into Alcohol-realted Mortality 
 
 ## Overview
@@ -21,7 +10,11 @@ The project results, visualizations, and documentation are also available on **G
 
 ### **Visit the GitHub Pages Site**
 You can view the live project results and additional resources here:  
-🔗 [GitHub Pages: Data-Driven Insights Project](https://<your-github-username>.github.io/<your-repository-name>/)
+
+🔗 [Trends and Future Prediction](https://mahesh7667.github.io/Data-Driven-Insights-into-Alcohol-Related-Mortality/Trends-and-Future-Prediction)
+🔗 [Exploring through Visualizations](https://mahesh7667.github.io/Data-Driven-Insights-into-Alcohol-Related-Mortality/Exploring-through-Visualizations)
+
+
 
 ### **What You’ll Find**
 - **Interactive Visualizations**: Explore the graphs and insights generated from the data analysis.
@@ -118,5 +111,3 @@ install.packages("<package_name>")
 ## License
 
 This project is licensed under the **MIT License**.
-
----
