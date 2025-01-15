@@ -1,4 +1,4 @@
-# Beyond the Bottle: Unveiling Alcohol Mortality Trends and Future Predictions 🍾🍺🔍
+# Last Sip: Unveiling Alcohol Mortality Trends and Forecasts 🍾🍺🔍
 
 
 This project explores **alcohol-related mortality trends** and uncovers key insights into the factors driving these trends. Through engaging visualizations and data analysis, the aim is to highlight important patterns and provide valuable information to guide public health decisions.
