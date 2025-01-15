@@ -82,15 +82,15 @@ Deaths have risen over the past two decades, with a sharp spike after 2015.
 
 ---
 
-### 4. **Rising Trends Over Time**
-- **Post-2015 Spike**:
-  - Alcohol-specific deaths have shown a noticeable increase in the last decade, with rates sharply rising after 2015.
-- **Wider Implications**:
-  - These trends may reflect increasing alcohol consumption, reduced healthcare access, or delayed health interventions in high-risk populations.
-
-  Public health policies must adapt to this rising trend by focusing on prevention, treatment access, and addressing societal factors (e.g., unemployment, stress) that contribute to higher alcohol consumption.
-
-  Efforts to combat alcohol-related deaths should focus on **early detection and treatment of liver disease** and provide better support for those facing **mental health issues** linked to alcohol.
+### **5. Predicting Future Trends**
+Using data, we identified key predictors of alcohol-related mortality:
+  - All ages total mortality is the most significant predictor.
+  - Age group and region are also critical, highlighting demographic and geographic disparities.
+  - Gender variable play a smaller role, contributing around 5% each.
+  - The predictions struggles with extreme outliers, indicating the need for more granular or enriched datasets for improved predictions.
+  
+  
+  Data-driven insights provide a foundation for **evidence-based policymaking**. Understanding the predictors of mortality allows public health officials to design targeted interventions, potentially saving lives.
 
 ---
 
@@ -117,7 +117,7 @@ I’m passionate about using data to address real-world problems. This project d
 - Build predictive models to uncover key insights.
 - Communicate findings effectively for both technical and non-technical audiences.
 
-More info about the project: ([repo](https://github.com/Mahesh7667/Data-Driven-Insights-into-Alcohol-Related-Mortality/tree/main))
+More info about the project: ([repo](https://github.com/Mahesh7667/Data-Driven-Insights-into-Alcohol-Related-Mortality/tree/main))<br />
 Feel free to reach out or explore the project further: 📧 [My Email](mailto:mahesh.k7667@gmail.com)
 
 ---
