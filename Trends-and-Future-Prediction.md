@@ -8,10 +8,10 @@ This project explores **alcohol-related mortality trends** and uncovers key insi
 ## 📌 **What Is This Project About?**
 
 This project looks at **alcohol-specific deaths** in the United Kingdom, answering these key questions:
-1. **What are the trends in alcohol-related deaths over time?**
-2. **Which age groups and regions are most affected?**
-3. **What are the main causes of alcohol-related deaths?**
-4. **Can we use data to predict future trends?**
+1. **What are the trends in alcohol-specific deaths over time?**  
+2. **Which age groups and regions are most affected?**  
+3. **What are the leading causes of alcohol-related deaths?**  
+4. **How can we use data to predict future trends?**  
 
 ---
 
@@ -53,6 +53,8 @@ Deaths have risen over the past two decades, with a sharp spike after 2015.
 - **Elderly Population (70+)**:
   - Death rates decline compared to middle-aged groups, possibly due to survivor bias and reduced alcohol consumption in older age.
 
+  This finding underscores the need for targeted public health interventions focusing on middle-aged individuals, especially those in the 45–64 range. Early education and prevention programs in younger age groups can also help reduce future mortality.
+
 ---
 
 ### 3. **Regional Disparities**
@@ -64,6 +66,8 @@ Deaths have risen over the past two decades, with a sharp spike after 2015.
 - **Wales and Northern Ireland**:
   - These regions contribute fewer deaths overall but show unique trends, with certain causes and age groups disproportionately represented.
 
+  Regions like Scotland require **specific, localized interventions** to address the high per-capita mortality rate. England's large-scale challenges call for **nationwide efforts**, including stricter alcohol policies and improved healthcare access.
+
 ---
 
 ### 4. **Rising Trends Over Time**
@@ -71,6 +75,22 @@ Deaths have risen over the past two decades, with a sharp spike after 2015.
   - Alcohol-specific deaths have shown a noticeable increase in the last decade, with rates sharply rising after 2015.
 - **Wider Implications**:
   - These trends may reflect increasing alcohol consumption, reduced healthcare access, or delayed health interventions in high-risk populations.
+
+  Public health policies must adapt to this rising trend by focusing on prevention, treatment access, and addressing societal factors (e.g., unemployment, stress) that contribute to higher alcohol consumption.
+
+  Efforts to combat alcohol-related deaths should focus on **early detection and treatment of liver disease** and provide better support for those facing **mental health issues** linked to alcohol.
+
+---
+
+### 4. **Rising Trends Over Time**
+- **Post-2015 Spike**:
+  - Alcohol-specific deaths have shown a noticeable increase in the last decade, with rates sharply rising after 2015.
+- **Wider Implications**:
+  - These trends may reflect increasing alcohol consumption, reduced healthcare access, or delayed health interventions in high-risk populations.
+
+  Public health policies must adapt to this rising trend by focusing on prevention, treatment access, and addressing societal factors (e.g., unemployment, stress) that contribute to higher alcohol consumption.
+
+  Efforts to combat alcohol-related deaths should focus on **early detection and treatment of liver disease** and provide better support for those facing **mental health issues** linked to alcohol.
 
 ---
 
