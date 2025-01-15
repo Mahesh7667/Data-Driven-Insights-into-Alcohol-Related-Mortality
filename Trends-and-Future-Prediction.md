@@ -27,7 +27,8 @@ Alcoholic liver disease is the dominant cause, followed by mental and behavioral
 ### 2. **Trends Over Time**
 Deaths have risen over the past two decades, with a sharp spike after 2015.
 
-<iframe src="output/trends_by_region.html" width="600" height="400">
+<iframe src="output/trends_by_region.html" width="600" height="400"></iframe>
+
 ---
 ## 🌟 **Key Findings**
 

@@ -1,4 +1,6 @@
-# Alcohol-Specific Deaths in the UK: Insights Through Visualizations
+# **The Sobering Picture: Alcohol-Related Deaths in the UK 🍷📊**
+
+
 
 ## Overview
 Alcohol-specific deaths are a growing public health issue in the United Kingdom. These deaths result from conditions directly caused by alcohol consumption, such as liver cirrhosis, alcohol poisoning, and alcoholic hepatitis. Understanding the patterns of these deaths is critical for tackling the significant social, economic, and healthcare challenges they create. This project uses clear, engaging visualizations to uncover how alcohol-specific deaths vary by age, sex, region, and time. The goal is to make these insights accessible to everyone, whether you're a policymaker, a healthcare provider, or simply someone who cares about public health.
@@ -33,13 +35,13 @@ Every life saved represents a win for individuals, families, and communities, re
 - **What it shows**: Regional differences in alcohol-specific deaths for the baseline year of 2001.
 - **Key takeaway**: Scotland stands out with the highest mortality rates, while Wales and Northern Ireland report significantly fewer deaths.
 - **Why it matters**: The map highlights the geographic disparities in alcohol-related harm, supporting region-specific policy responses.
-<iframe src="output/geospatial.html" width="800" height="600">
+<iframe src="output/geospatial.html" width="800" height="600"></iframe>
 
 ### 3. **Scatter Plot**
 - **What it shows**: Disparities in alcohol-specific deaths by age group and sex.
 - **Key takeaway**: Males dominate across all age groups, with a sharp peak in the 50–59 age range. Females are consistently affected at lower rates.
 - **Why it matters**: This visualization underscores the need for gender-specific health interventions and further research into the underlying causes of these disparities.
-<img src="output/scatterPlot.png" width="800" height="600">
+<img src="output/scatter_plot.png" width="800" height="600">
 
 
 ### 4. **Bubble Plot**
