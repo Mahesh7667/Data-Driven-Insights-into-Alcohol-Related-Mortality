@@ -1,6 +1,7 @@
-# 🎯**Trends and Future-Prediction**
+# Beyond the Bottle: Unveiling Alcohol Mortality Trends and Future Predictions 🍾🍺🔍
 
-Welcome to my project page! This project explores **alcohol-related mortality trends** and uncovers key insights into the factors driving these trends. Through engaging visualizations and data analysis, the aim is to highlight important patterns and provide valuable information to guide public health decisions.
+
+This project explores **alcohol-related mortality trends** and uncovers key insights into the factors driving these trends. Through engaging visualizations and data analysis, the aim is to highlight important patterns and provide valuable information to guide public health decisions.
 
 ---
 
@@ -12,6 +13,21 @@ This project looks at **alcohol-specific deaths** in the United Kingdom, answeri
 3. **What are the main causes of alcohol-related deaths?**
 4. **Can we use data to predict future trends?**
 
+---
+
+## 🎨 **Visual Highlights**
+
+### 1. **Top Causes of Death**
+Alcoholic liver disease is the dominant cause, followed by mental and behavioral disorders due to alcohol.
+
+![Top 10 Causes of Death](output/top_causes.png)
+
+
+
+### 2. **Trends Over Time**
+Deaths have risen over the past two decades, with a sharp spike after 2015.
+
+<iframe src="output/trends_by_region.html" width="800" height="600">
 ---
 ## 🌟 **Key Findings**
 
@@ -57,47 +73,12 @@ This project looks at **alcohol-specific deaths** in the United Kingdom, answeri
 
 ---
 
-## 🎨 **Visual Highlights**
-
-### 1. **Top Causes of Death**
-Alcoholic liver disease is the dominant cause, followed by mental and behavioral disorders due to alcohol.
-
-![Top 10 Causes of Death](output/top_causes.png)
-
-
-
-### 2. **Trends Over Time**
-Deaths have risen over the past two decades, with a sharp spike after 2015.
-
-![Alcohol Mortality Trends by Region](output/trends_by_region.png)
-
----
-
 ## 💡 **Why Does This Matter?**
 
 Understanding alcohol-specific mortality is crucial for:
 - **🛠️ Policymakers**: Developing interventions for high-risk groups and regions.
 - **⚕️ Healthcare Providers**: Prioritizing resources for leading causes of alcohol-related deaths.
 - **📢 Public Awareness**: Educating individuals about the risks of alcohol consumption and its long-term impacts.
-
----
-
-## 🔍 **How You Can Explore the Project**
-
-### **Option 1: Try the Interactive Notebook**
-You can explore the project directly using **Google Colab**! No setup required—just click the link below:
-
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/your-colab-notebook-link)
-
-- Follow the steps in the notebook to view visualizations and insights.
-- Understand trends, causes, and predictions—all explained clearly.
-
----
-
-### **Option 2: View the Full Report**
-Want more details? Visit the GitHub repository for a full breakdown of the analysis and findings:
-
-👉 [**Explore the Full Report on GitHub**](https://github.com/yourusername/Alcohol-Mortality-Analysis)
 
 ---
 
@@ -115,8 +96,8 @@ I’m passionate about using data to address real-world problems. This project d
 - Build predictive models to uncover key insights.
 - Communicate findings effectively for both technical and non-technical audiences.
 
-Feel free to reach out or explore the project further:
-📧 [My Email](mailto:mahesh.k7667@gmail.com)
+More info about the project: ([repo](https://github.com/Mahesh7667/Data-Driven-Insights-into-Alcohol-Related-Mortality/tree/main))
+Feel free to reach out or explore the project further: 📧 [My Email](mailto:mahesh.k7667@gmail.com)
 
 ---
 
