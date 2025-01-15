@@ -27,18 +27,28 @@ You can view the live project results and additional resources here:
 
 ## Folder Structure
 
-📂 **DATA-DRIVEN-INSIGHTS-ALCHOHOL-RELATED-MORTALITY /**
-├── 📂 **code/**                - Contains all the R scripts for the analysis pipeline
-│   ├── `dataPreprocess.R`      - Script to load, clean, and preprocess raw data
-│   ├── `dataAnalysis.R`        - Script for exploratory data analysis (EDA)
-│   ├── `Visualisations.R`      - Script to generate data visualizations
-│   ├── `modeling.R`            - Script for predictive modeling and evaluation
-│   └── `runScripts.R`          - Master script to execute all other scripts
-├── 📂 **data/**                - Raw data files used in the analysis
-│   ├── `alcoholspecificdeaths2021.xlsx`  - Supplementary dataset for alcohol-specific deaths
-│   └── `deathsbyindividualcause.xlsx`    - Main dataset with cause-specific death statistics
-├── 📂 **outputs/**             - Generated outputs from the analysis
-└── 📄 **README.md**            - Project documentation and guide
+## 📂 Project File Structure
+
+The repository is organized into the following folders and files:
+
+```plaintext
+Alcohol-Mortality-Analysis/
+├── code/                     # All R scripts for the project
+│   ├── 1_data_cleaning.R      # Script for cleaning and preprocessing the data
+│   ├── 2_data_analysis.R      # Statistical and predictive modeling analysis
+│   ├── 3_visualization.R      # Script for generating visualizations
+├── data/                     # Data used for the project
+│   ├── raw/                   # Raw datasets (original Excel files)
+│   ├── processed/             # Cleaned and transformed datasets
+├── docs/                     # Documentation and outputs
+│   ├── figures/               # Visualizations and plots (e.g., .png files)
+│   ├── interactive/           # Interactive plots or HTML files (if applicable)
+├── notebooks/                # Jupyter or Google Colab notebooks
+│   ├── Alcohol_Mortality_Notebook.ipynb  # Main notebook for running the project
+├── README.md                 # Project overview and details
+├── LICENSE                   # License for the project
+├── requirements.txt          # Required packages for Python (if applicable)
+
 
 ## How to Run the Project
 
