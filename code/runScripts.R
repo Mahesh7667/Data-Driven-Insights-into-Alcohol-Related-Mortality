@@ -1,13 +1,13 @@
 # Master script to run all R scripts in the correct order
 
 # Step 1: Setup, Load Data, and Clean Data
-source("data_setup_and_cleaning.R")
+source("dataPreprocess.R")
 
 # Step 2: Analysis
-source("analysis.R")
+source("dataAnalysis.R")
 
 # Step 3: Visualization
-source("visualization.R")
+source("Visualisations.R")
 
 # Step 4: Modeling
 source("modeling.R")

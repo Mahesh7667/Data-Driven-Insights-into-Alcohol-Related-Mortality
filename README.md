@@ -1,13 +1,9 @@
-# Data-Driven Insights into Alcohol-realted Mortality 
+# The Fatal Sip: Alcohol-Related Mortality Uncovered
 
 ## Overview
 This project analyzes alcohol-specific deaths and causes of death data to uncover trends, generate insights, and build predictive models. The project workflow includes data preprocessing, exploratory data analysis (EDA), visualization, and modeling.
 
 ---
-## GitHub Pages
-
-The project results, visualizations, and documentation are also available on **GitHub Pages**. 
-
 ### **Visit the GitHub Pages Site**
 You can view the live project results and additional resources here:  
 
@@ -22,11 +18,6 @@ You can view the live project results and additional resources here:
 - **Downloadable Outputs**: Access processed data or model results.
 
 ---
-
-
-
-## Folder Structure
-
 ## 📂 Project File Structure
 
 The repository is organized into the following folders and files:
@@ -34,21 +25,17 @@ The repository is organized into the following folders and files:
 ```plaintext
 Alcohol-Mortality-Analysis/
 ├── code/                     # All R scripts for the project
-│   ├── 1_data_cleaning.R      # Script for cleaning and preprocessing the data
-│   ├── 2_data_analysis.R      # Statistical and predictive modeling analysis
-│   ├── 3_visualization.R      # Script for generating visualizations
+│   ├── dataPreprocess.R    # Script for cleaning and preprocessing the data
+│   ├── dataAnalysis.R      # Statistical and predictive modeling analysis
+│   ├── Visualisations.R    # Script for generating visualizations
+│   ├── modeling.R          # Script for building predictive model
+│   ├── runScripts.R          # Script for running all the above scripts
 ├── data/                     # Data used for the project
-│   ├── raw/                   # Raw datasets (original Excel files)
-│   ├── processed/             # Cleaned and transformed datasets
-├── docs/                     # Documentation and outputs
-│   ├── figures/               # Visualizations and plots (e.g., .png files)
-│   ├── interactive/           # Interactive plots or HTML files (if applicable)
 ├── notebooks/                # Jupyter or Google Colab notebooks
 │   ├── Alcohol_Mortality_Notebook.ipynb  # Main notebook for running the project
 ├── README.md                 # Project overview and details
 ├── LICENSE                   # License for the project
-├── requirements.txt          # Required packages for Python (if applicable)
-
+```
 
 ## How to Run the Project
 
@@ -83,15 +70,11 @@ Alcohol-Mortality-Analysis/
      ```bash
      pip install notebook
      ```
-   - Install required Python libraries:
-     ```bash
-     pip install pandas numpy matplotlib seaborn openpyxl scikit-learn
-     ```
 
 2. **Run the Notebooks**:
-   - Navigate to the `notebooks/` folder and open `run_all.ipynb`:
+   - Navigate to the `notebooks/` folder and open `Alcohol_Mortality_Notebook.ipynb`:
      ```bash
-     jupyter notebook notebooks/run_all.ipynb
+     jupyter notebook notebooks/Alcohol_Mortality_Notebook.ipynb
      ```
    - Execute each cell in the notebook to run the entire workflow.
 
