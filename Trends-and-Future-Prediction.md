@@ -110,7 +110,11 @@ This project leverages **data science** to tackle an important public health iss
 - **Impact**: The findings highlight critical areas for intervention and resource allocation.
 
 ---
+### Another Interesting Read
 
+🔗 [Exploring through Visualizations](https://mahesh7667.github.io/Data-Driven-Insights-into-Alcohol-Related-Mortality/Exploring-through-Visualizations)
+
+---
 ## 🤝 **About Me**
 I’m passionate about using data to address real-world problems. This project demonstrates my ability to:
 - Clean and analyze complex datasets.

@@ -74,6 +74,11 @@ Understanding these patterns isn’t just about statistics; it’s about real pe
 - **Collaborate**: If you work in public health, research, or policymaking, contact us to explore how these insights can support your work.
 
 ---
+### Another Interesting Read
+
+🔗 [Trends and Future Prediction](https://mahesh7667.github.io/Data-Driven-Insights-into-Alcohol-Related-Mortality/Trends-and-Future-Prediction)
+
+---
 
 ## 🤝 **About Me**
 I’m passionate about using data to address real-world problems. This project demonstrates my ability to:
