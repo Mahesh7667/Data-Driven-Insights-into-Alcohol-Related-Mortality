@@ -1,7 +1,7 @@
 # **The Sobering Picture: Alcohol-Related Deaths in the UK though visuals🍷📊**
 
 <meta property="og:title" content="The Sobering Picture"/>
-<meta property="og:image" content="meta/visualisation_thumbnail.png"/>
+<meta property="og:image" content="https://mahesh7667.github.io/Data-Driven-Insights-into-Alcohol-Related-Mortality/meta/visualisation_thumbnail.png"/>
 <meta property="og:description" content="The Sobering Picture: Alcohol-Related Deaths in the UK though visuals"/>
 <meta property="og:url" content="https://mahesh7667.github.io/Data-Driven-Insights-into-Alcohol-Related-Mortality/Exploring-through-Visualizations"/>
 <meta property="og:image:width" content="1200" />

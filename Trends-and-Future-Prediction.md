@@ -1,7 +1,7 @@
 # Last Sip: Unveiling Alcohol Mortality Trends and Forecasts 🍾🍺🔍
 
 <meta property="og:title" content="Last Sip"/>
-<meta property="og:image" content="meta/last_sip.png"/>
+<meta property="og:image" content="https://mahesh7667.github.io/Data-Driven-Insights-into-Alcohol-Related-Mortality/meta/last_sip.png"/>
 <meta property="og:description" content="Last Sip: Unveiling Alcohol Mortality Trends and Forecasts"/>
 <meta property="og:url" content="https://mahesh7667.github.io/Data-Driven-Insights-into-Alcohol-Related-Mortality/Trends-and-Future-Prediction"/>
 <meta property="og:image:width" content="1200" />
