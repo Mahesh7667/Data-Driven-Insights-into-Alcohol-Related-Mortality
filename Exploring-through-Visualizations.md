@@ -1,5 +1,12 @@
 # **The Sobering Picture: Alcohol-Related Deaths in the UK though visuals🍷📊**
 
+<meta property="og:title" content="The Sobering Picture"/>
+<meta property="og:image" content="meta/visualisation_thumbnail.png"/>
+<meta property="og:description" content="The Sobering Picture: Alcohol-Related Deaths in the UK though visuals"/>
+<meta property="og:url" content="https://mahesh7667.github.io/Data-Driven-Insights-into-Alcohol-Related-Mortality/Exploring-through-Visualizations"/>
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="627"/>
+<meta property="og:type" content="website"/> 
 
 ## Overview
 Alcohol-specific deaths are a growing public health issue in the United Kingdom. These deaths result from conditions directly caused by alcohol consumption, such as liver cirrhosis, alcohol poisoning, and alcoholic hepatitis. Understanding the patterns of these deaths is critical for tackling the significant social, economic, and healthcare challenges they create. This project uses clear, engaging visualizations to uncover how alcohol-specific deaths vary by age, sex, region, and time. The goal is to make these insights accessible to everyone, whether you're a policymaker, a healthcare provider, or simply someone who cares about public health.

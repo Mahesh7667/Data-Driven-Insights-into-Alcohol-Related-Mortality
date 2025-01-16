@@ -1,5 +1,12 @@
 # Last Sip: Unveiling Alcohol Mortality Trends and Forecasts 🍾🍺🔍
 
+<meta property="og:title" content="Last Sip"/>
+<meta property="og:image" content="meta/last_sip.png"/>
+<meta property="og:description" content="Last Sip: Unveiling Alcohol Mortality Trends and Forecasts"/>
+<meta property="og:url" content="https://mahesh7667.github.io/Data-Driven-Insights-into-Alcohol-Related-Mortality/Trends-and-Future-Prediction"/>
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="627"/>
+<meta property="og:type" content="website"/> 
 
 This project explores **alcohol-related mortality trends** and uncovers key insights into the factors driving these trends. Through engaging visualizations and data analysis, the aim is to highlight important patterns and provide valuable information to guide public health decisions.
 
