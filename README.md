@@ -36,6 +36,14 @@ Alcohol-Mortality-Analysis/
 ├── README.md                 # Project overview and details
 ├── LICENSE                   # License for the project
 ```
+---
+
+## Data Source
+
+[Primary](https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/causesofdeath/datasets/alcoholspecificdeathsbysexagegroupandindividualcauseofdeath) and [Secondary dataset](https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/causesofdeath/datasets/alcoholspecificdeathsintheukmaindataset)  were obtained from open-access governmental and health organization
+sources, namely, Public Health England and the Office for National Statistics (ONS). 
+
+---
 
 ## How to Run the Project
 
