@@ -122,14 +122,23 @@ This project leverages **data science** to tackle an important public health iss
 🔗 [Exploring through Visualizations](https://mahesh7667.github.io/Data-Driven-Insights-into-Alcohol-Related-Mortality/Exploring-through-Visualizations)
 
 ---
+
+
 ## 🤝 **About Me**
-I’m passionate about using data to address real-world problems. This project demonstrates my ability to:
-- Clean and analyze complex datasets.
-- Build predictive models to uncover key insights.
-- Communicate findings effectively for both technical and non-technical audiences.
+
+I am a **data-driven problem solver** passionate about turning raw data into actionable insights. My expertise spans the entire data science pipeline, and this project showcases my ability to:
+
+- **Clean and preprocess complex datasets** for meaningful analysis.  
+- **Develop predictive models** using techniques to uncover patterns and trends.  
+- **Visualize data effectively** to communicate findings clearly to both technical and non-technical audiences.  
+- **Leverage tools and technologies** like R, Python to solve real-world problems.  
+
+Through this project, I have explored large datasets, identifying critical patterns (e.g., alcohol-related mortality trends), and creating data-driven solutions to inform decision-making.
+
 
 More info about the project: ([repo](https://github.com/Mahesh7667/Data-Driven-Insights-into-Alcohol-Related-Mortality/tree/main))<br />
-Feel free to reach out or explore the project further: 📧 [My Email](mailto:mahesh.k7667@gmail.com)
+Feel free to reach out or explore the project further: 📧 [Email](mailto:mahesh.k7667@gmail.com), [Linkedin](https://www.linkedin.com/in/mahesh-kadireddy/)
+
 
 ---
 
