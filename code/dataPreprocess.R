@@ -117,6 +117,122 @@ head(data_long)
 tail(data_long)
 
 
+library(dplyr)
+library(plyr)
+
+## Analysis ----
+# Summary statistics
+summary(data_long)
+
+# Check for missing values
+colSums(is.na(data_long))
+
+detach(package:plyr)
+
+
+# Filter out the "Persons" category
+data_long <- data_long %>%
+  filter(Sex %in% c("Males", "Females"))
+
+supplementary_data <- supplementary_data %>%
+  filter(Sex %in% c("Males", "Females"))
+
+# Filter out the "United Kingdom" region
+data_long <- data_long %>%
+  filter(!Region %in% c("United Kingdom"))
+
+
+
+total_deaths_summary <- data_long %>%
+  group_by(Region, Age_Group, Sex) %>%
+  summarise(Total_Deaths = sum(Deaths, na.rm = TRUE)) %>%
+  arrange(desc(Total_Deaths))
+print(total_deaths_summary)
+
+avg_deaths_summary <- data_long %>%
+  group_by(Region, Age_Group) %>%
+  summarise(Avg_Deaths = mean(Deaths, na.rm = TRUE)) %>%
+  arrange(desc(Avg_Deaths))
+print(avg_deaths_summary)
+
+yearly_deaths_region <- data_long %>%
+  group_by(Year, Region) %>%
+  summarise(Total_Deaths = sum(Deaths, na.rm = TRUE))
+print(yearly_deaths_region)
+
+yearly_deaths_region <- data_long %>%
+  group_by(Year, Region) %>%
+  mutate(Total_Deaths = sum(Deaths, na.rm = TRUE))
+print(yearly_deaths_region)
+
+yearly_deaths_age <- data_long %>%
+  group_by(Year, Age_Group) %>%
+  summarise(Total_Deaths = sum(Deaths, na.rm = TRUE))
+print(yearly_deaths_age)
+
+deaths_distribution <- data_long %>%
+  group_by(Region, Age_Group) %>%
+  summarise(Total_Deaths = sum(Deaths, na.rm = TRUE)) %>%
+  pivot_wider(names_from = Age_Group, values_from = Total_Deaths)
+print(deaths_distribution)
+
+sex_proportion <- data_long %>%
+  group_by(Sex) %>%
+  summarise(Total_Deaths = sum(Deaths, na.rm = TRUE)) %>%
+  mutate(Proportion = Total_Deaths / sum(Total_Deaths))
+print(sex_proportion)
+
+regional_sex_disparity <- data_long %>%
+  group_by(Region, Sex) %>%
+  summarise(Total_Deaths = sum(Deaths, na.rm = TRUE)) %>%
+  arrange(Region, desc(Total_Deaths))
+print(regional_sex_disparity)
+
+# Summarize deaths by Age Group and Region
+total_deaths_summary <- data_long %>%
+  group_by(Age_Group, Region) %>%
+  summarise(Total_Deaths = sum(Deaths, na.rm = TRUE),
+            Mean_Deaths = mean(Deaths, na.rm = TRUE),
+            Median_Deaths = median(Deaths, na.rm = TRUE),
+            SD_Deaths = sd(Deaths, na.rm = TRUE),
+            Min_Deaths = min(Deaths, na.rm = TRUE),
+            Max_Deaths = max(Deaths, na.rm = TRUE)) %>%
+  arrange(Region, Age_Group)
+
+# Print the summary table
+print(total_deaths_summary)
+
+# Summarize deaths by Age Group and Region
+total_deaths_summary <- data_long %>%
+  group_by( Region) %>%
+  summarise(Total_Deaths = sum(Deaths, na.rm = TRUE),
+            Mean_Deaths = mean(Deaths, na.rm = TRUE),
+            Median_Deaths = median(Deaths, na.rm = TRUE),
+            SD_Deaths = sd(Deaths, na.rm = TRUE),
+            Min_Deaths = min(Deaths, na.rm = TRUE),
+            Max_Deaths = max(Deaths, na.rm = TRUE)) %>%
+  arrange(Region)
+
+# Print the summary table
+print(total_deaths_summary)
+
+
+library(dplyr)
+
+# Convert relevant columns to appropriate data types
+supplementary_data <- supplementary_data %>%
+  mutate(
+    Year = as.numeric(Year),
+    Death_Count = as.numeric(Death_Count),
+    Age_Rate = as.numeric(Age_Rate),
+    Lower_Confidence_Interval = as.numeric(Lower_Confidence_Interval),
+    Upper_Confidence_Interval = as.numeric(Upper_Confidence_Interval),
+    Sex = as.factor(Sex)
+  )
+
+
+
+
 
 data_long_filtered <- data_long_filtered %>%
   mutate(Region = recode_factor(Region,
