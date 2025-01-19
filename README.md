@@ -80,11 +80,13 @@ sources, namely, Public Health England and the Office for National Statistics (O
      ```
 
 2. **Run the Notebooks**:
-   - Navigate to the `notebooks/` folder and open `Alcohol_Mortality_Notebook.ipynb`:
+   - Navigate to the `notebooks/` folder and open `Alcohol_Mortality_Notebook.ipynb` for R code and open 
+                                                `Alcohol_Mortality_Notebook_Python.ipynb` for python equivalent code.
      ```bash
-     jupyter notebook notebooks/Alcohol_Mortality_Notebook.ipynb
+     jupyter notebook notebooks/{file name that you want from above}
      ```
    - Execute each cell in the notebook to run the entire workflow.
+
 
 3. **View Results**:
    - Outputs such as visualizations and processed data will be in the output console.
