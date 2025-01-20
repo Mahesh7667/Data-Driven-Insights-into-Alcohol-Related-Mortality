@@ -24,7 +24,7 @@ gender_analysis <- supplementary_data %>%
 
 total_deaths_summary <- data_long %>%
   group_by(Region, Age_Group, Sex) %>%
-  summarise(Total_Deaths = sum(Deaths, na.rm = TRUE)) %>%
+  dplyr::summarise(Total_Deaths = sum(Deaths, na.rm = TRUE)) %>%
   ungroup()
 print(total_deaths_summary)
 
@@ -41,7 +41,7 @@ top_regions <- regional_analysis %>%
 # Top 10 causes of death
 top_causes <- data_long %>%
   group_by(cause) %>%
-  summarise(Total_Deaths = sum(Deaths, na.rm = TRUE), .groups = "drop") %>%
+   dplyr::summarise(Total_Deaths = sum(Deaths, na.rm = TRUE), .groups = "drop") %>%
   arrange(desc(Total_Deaths)) %>%
   slice(1:10)  # Select top 10 causes
 
@@ -65,13 +65,13 @@ library(tidyr)
 # Data Preprocessing: Aggregating by Year, Age Group, and Sex, and summing the Deaths
 agg_data <- data_long %>%
   group_by(Year, Age_Group, Sex) %>%
-  summarise(Total_Deaths = sum(Deaths, na.rm = TRUE)) %>%
+   dplyr::summarise(Total_Deaths = sum(Deaths, na.rm = TRUE)) %>%
   ungroup()
 
 # Checking out the top causes of death (Alcohol-related)
 top_causes <- data_long %>%
   group_by(cause) %>%
-  summarise(Total_Deaths = sum(Deaths, na.rm = TRUE)) %>%
+   dplyr::summarise(Total_Deaths = sum(Deaths, na.rm = TRUE)) %>%
   arrange(desc(Total_Deaths))
 
 unique(data_long$Region)
@@ -93,7 +93,7 @@ library(ggplot2)
 # Assuming 'data' is your pivoted dataframe
 age_group_region_trends <- data_long %>%
   group_by(Year, Age_Group, Region) %>%
-  summarise(Total_Deaths = sum(Deaths, na.rm = TRUE)) %>%
+   dplyr::summarise(Total_Deaths = sum(Deaths, na.rm = TRUE)) %>%
   ungroup()
 
 ggplot(age_group_region_trends, aes(x = Year, y = Total_Deaths, color = Region)) +
@@ -121,7 +121,7 @@ print(cor_data)
 # Summarize total deaths by year and region
 yearly_deaths_summary <- data_long %>%
   group_by(Year, Region) %>%
-  summarise(Total_Deaths = sum(Deaths, na.rm = TRUE))
+   dplyr::summarise(Total_Deaths = sum(Deaths, na.rm = TRUE))
 
 # Print the yearly summary table
 print(yearly_deaths_summary)
@@ -129,13 +129,13 @@ print(yearly_deaths_summary)
 # Summarize deaths by Year and Age Group
 age_group_contribution <- data_long %>%
   group_by(Year, Age_Group) %>%
-  summarise(Total_Deaths = sum(Deaths, na.rm = TRUE)) %>%
+   dplyr::summarise(Total_Deaths = sum(Deaths, na.rm = TRUE)) %>%
   ungroup()
 
 # Summarize the proportion of alcohol-specific deaths by sex
 sex_proportions <- data_long %>%
   group_by(Sex) %>%
-  summarise(Total_Deaths = sum(Deaths, na.rm = TRUE)) %>%
+  dplyr::summarise(Total_Deaths = sum(Deaths, na.rm = TRUE)) %>%
   mutate(Proportion = Total_Deaths / sum(Total_Deaths))
 
 # Print the proportions table
@@ -145,7 +145,7 @@ print(sex_proportions)
 # Summarizing total deaths by Region and Year
 heatmap_data <- data_long %>%
   group_by(Year, Region) %>%
-  summarise(Total_Deaths = sum(Deaths, na.rm = TRUE)) %>%
+   dplyr::summarise(Total_Deaths = sum(Deaths, na.rm = TRUE)) %>%
   ungroup()
 
 print(heatmap_data)
@@ -154,7 +154,7 @@ print(heatmap_data)
 # Summarizing deaths by Cause, Region, and Age Group
 cause_analysis <- data_long %>%
   group_by(cause, Region, Age_Group) %>%
-  summarise(Total_Deaths = sum(Deaths, na.rm = TRUE)) %>%
+   dplyr::summarise(Total_Deaths = sum(Deaths, na.rm = TRUE)) %>%
   filter(Total_Deaths > 100) %>%
   ungroup()
 
@@ -162,7 +162,7 @@ cause_analysis <- data_long %>%
 # Summarize total deaths by cause
 top_causes <- data_long %>%
   group_by(cause) %>%
-  summarise(Total_Deaths = sum(Deaths, na.rm = TRUE), .groups = "drop") %>%
+   dplyr::summarise(Total_Deaths = sum(Deaths, na.rm = TRUE), .groups = "drop") %>%
   arrange(desc(Total_Deaths)) %>%
   slice(1:10)  # Select the top 10 causes
 
@@ -171,7 +171,7 @@ print(top_causes )
 # Identify the major cause in each region
 major_cause_by_region <- data_long %>%
   group_by(Region, cause) %>%
-  summarise(Total_Deaths = sum(Deaths, na.rm = TRUE), .groups = "drop") %>%
+   dplyr::summarise(Total_Deaths = sum(Deaths, na.rm = TRUE), .groups = "drop") %>%
   arrange(Region, desc(Total_Deaths)) %>%
   slice_max(order_by = Total_Deaths, n = 1, by = "Region")  # Top cause per region
 
@@ -215,9 +215,10 @@ print(main_missing)
 print("Missing Values in Supplementary Dataset:")
 print(supplementary_missing)
 
+
 # Data type conversion (if not already converted)
 main_data <- main_data %>%
-  mutate(
+  plyr::mutate(
     Year = as.numeric(Year),
     Deaths = as.numeric(Deaths),
     All.ages = as.numeric(All.ages),
@@ -226,7 +227,7 @@ main_data <- main_data %>%
   )
 
 supplementary_data <- supplementary_data %>%
-  mutate(
+  plyr::mutate(
     Year = as.numeric(Year),
     Death_Count = as.numeric(Death_Count),
     Age_Rate = as.numeric(Age_Rate),
@@ -235,13 +236,16 @@ supplementary_data <- supplementary_data %>%
     Sex = as.factor(Sex)
   )
 
+print(main_data)
+print(supplementary_data)
 # Merge datasets on Year and Sex
 merged_data <- main_data %>%
-  inner_join(supplementary_data, by = c("Year", "Sex"))
+  inner_join(supplementary_data, by = c("Year", "Sex"),   relationship = "many-to-many"
+)
 
 # Summarize basic statistics for numerical variables in the merged dataset
 numerical_summary <- merged_data %>%
-  summarise(
+   dplyr::summarise(
     Total_Deaths = sum(Deaths, na.rm = TRUE),
     Average_Deaths = mean(Deaths, na.rm = TRUE),
     Median_Deaths = median(Deaths, na.rm = TRUE),
@@ -254,15 +258,15 @@ numerical_summary <- merged_data %>%
 print("Numerical Summary:")
 print(numerical_summary)
 
-# Grouped summaries by Region and Age_Group
-grouped_summary <- merged_data %>%
-  group_by(Region, Age_Group) %>%
-  summarise(
-    Total_Deaths = sum(Deaths, na.rm = TRUE),
-    Avg_Age_Rate = mean(Age_Rate, na.rm = TRUE),
-    Deaths_Rate_Correlation = cor(Deaths, Age_Rate, use = "complete.obs")
-  ) %>%
-  arrange(desc(Total_Deaths))
+# # Grouped summaries by Region and Age_Group
+# grouped_summary <- merged_data %>%
+#   group_by(Region, Age_Group) %>%
+#   dplyr::summarise(
+#     Total_Deaths = sum(Deaths, na.rm = TRUE),
+#     Avg_Age_Rate = mean(Age_Rate, na.rm = TRUE),
+#     Deaths_Rate_Correlation = cor(Deaths, Age_Rate, use = "complete.obs")
+#   ) %>%
+#   arrange(desc(Total_Deaths))
 
 print("Grouped Summary by Region and Age_Group:")
 print(grouped_summary)
@@ -292,7 +296,7 @@ print(outliers)
 # Analyze trends across time for Death_Count and Age_Rate
 trend_analysis <- merged_data %>%
   group_by(Year) %>%
-  summarise(
+  dplyr::summarise(
     Avg_Deaths = mean(Deaths, na.rm = TRUE),
     Avg_Age_Rate = mean(Age_Rate, na.rm = TRUE),
     Total_Deaths = sum(Deaths, na.rm = TRUE)
@@ -303,7 +307,7 @@ print(trend_analysis)
 # Check for distribution across regions
 region_distribution <- merged_data %>%
   group_by(Region) %>%
-  summarise(Total_Deaths = sum(Deaths, na.rm = TRUE))
+  dplyr::summarise(Total_Deaths = sum(Deaths, na.rm = TRUE))
 
 print("Regional Death Distribution:")
 print(region_distribution)

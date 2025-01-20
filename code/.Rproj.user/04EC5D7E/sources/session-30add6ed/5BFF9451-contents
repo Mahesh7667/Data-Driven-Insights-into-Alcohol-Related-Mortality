@@ -25,7 +25,7 @@ ggplot(total_deaths_summary, aes(x = Age_Group, y = Total_Deaths, fill = Region)
   labs(title = "Alcohol-Specific Deaths by Age Group and Region",
        x = "Age Group", y = "Total Deaths") +
   theme_minimal() +
-theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
 
 # Improved plot
@@ -42,8 +42,8 @@ ggplot(gender_analysis_filtered, aes(x = Year, y = mean_rate, color = Sex)) +
     axis.text.x = element_text(angle = 45, hjust = 1),
     legend.position = "top"
   )
-  
-  # Plot: Proportion of alcohol-specific deaths by sex
+
+# Plot: Proportion of alcohol-specific deaths by sex
 ggplot(sex_proportions, aes(x = Sex, y = Proportion, fill = Sex)) +
   geom_bar(stat = "identity") +
   labs(title = "Proportion of Alcohol-Specific Deaths by Sex",
@@ -146,7 +146,7 @@ geospatial <- ggplot(data_sf) +
     axis.ticks = element_blank(),  # Remove axis ticks
     panel.grid = element_blank()  # Remove grid lines for a cleaner look
   )
-  # Set a fixed aspect ratio to prevent stretching
+# Set a fixed aspect ratio to prevent stretching
 
 library(plotly)
 
@@ -154,12 +154,12 @@ library(plotly)
 interactive_geospatial <- ggplotly(geospatial)
 
 # Save as an HTML file
-# htmlwidgets::saveWidget(interactive_geospatial, "output/geospatial.html")
+htmlwidgets::saveWidget(interactive_geospatial, "output/geospatial.html")
 
 heatmap_data <- data_long_filtered %>%
   filter(!Sex %in% c("<1")) %>%
   group_by(Year, Age_Group) %>%
-   dplyr::summarise(Total_Deaths = sum(Deaths, na.rm = TRUE)) %>%
+  dplyr::summarise(Total_Deaths = sum(Deaths, na.rm = TRUE)) %>%
   ungroup()
 
 library(grid)
@@ -195,7 +195,7 @@ library(plotly)
 interactive_heatmap <- ggplotly(heatmap)
 
 # Save as an HTML file
-# htmlwidgets::saveWidget(interactive_heatmap, "output/heatmap.html")
+htmlwidgets::saveWidget(interactive_heatmap, "output/heatmap.html")
 
 library(patchwork)
 
@@ -225,7 +225,7 @@ library(plotly)
 interactive_scatterPlot <- ggplotly(scatterPlot)
 
 # Save as an HTML file
-# htmlwidgets::saveWidget(interactive_scatterPlot, "output/scatterPlot.html")
+htmlwidgets::saveWidget(interactive_scatterPlot, "output/scatterPlot.html")
 
 
 bubblePlot <- ggplot(data_long_filtered, aes(x = Region, y = Deaths, size = Deaths, color = Sex)) +
@@ -245,7 +245,7 @@ bubblePlot <- ggplot(data_long_filtered, aes(x = Region, y = Deaths, size = Deat
     legend.title = element_text(size = 12, face = "bold"),
     legend.text = element_text(size = 6),
     axis.text.y = element_text(size = 10, angle = 0, vjust = 0.5)
-            
+    
   ) + 
   
   guides(
@@ -259,7 +259,7 @@ library(plotly)
 interactive_bubblePlot <- ggplotly(bubblePlot)
 
 # Save as an HTML file
-# htmlwidgets::saveWidget(interactive_bubblePlot, "output/bubblePlot.html")
+htmlwidgets::saveWidget(interactive_bubblePlot, "output/bubblePlot.html")
 
 wrap_plots(heatmap  , geospatial,scatterPlot , bubblePlot) + plot_annotation(
   title = "Analysis of Alcohol-Specific Deaths in the UK",

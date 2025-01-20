@@ -14,8 +14,8 @@ correct_column_names <- c(
 
 library(openxlsx)
 library(plyr)
-
-dataExcelSheet <- loadWorkbook('deathsbyindividualcause.xlsx')
+setwd('..')
+dataExcelSheet <- loadWorkbook('data/deathsbyindividualcause.xlsx')
 
 ## Load excel ----
 df1 <- readWorkbook(dataExcelSheet,sheet = "Table 1")
@@ -70,7 +70,7 @@ correct_column_names <- c(
   "Upper_Confidence_Interval"
 )
 
-dataExcelSheet <- loadWorkbook('alcoholspecificdeaths2021.xlsx')
+dataExcelSheet <- loadWorkbook('data/alcoholspecificdeaths2021.xlsx')
 
 # Load supplementary dataset
 supplementary_data <- readWorkbook(dataExcelSheet,sheet = "Table 1")
@@ -232,6 +232,9 @@ supplementary_data <- supplementary_data %>%
 
 
 
+# Filter out the "Persons" category
+data_long_filtered <- data_long %>%
+  filter(Sex %in% c("Males", "Females"))
 
 
 data_long_filtered <- data_long_filtered %>%
@@ -250,3 +253,5 @@ aggregated_data <- supplementary_data %>%
   summarise(
     Total_Deaths = sum(Death_Count, na.rm = TRUE)
   )
+
+setwd('code/')
