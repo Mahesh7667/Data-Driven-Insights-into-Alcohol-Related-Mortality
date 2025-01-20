@@ -552,6 +552,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Inspect the structure of both datasets
+main_data = data_long
 print("Main Data:")
 print(main_data.info())
 print("\nSupplementary Data:")
@@ -630,7 +631,7 @@ print("\nMissing Values in Supplementary Dataset:")
 print(supplementary_missing)
 
 # Data type conversion
-main_data = main_data.astype({"Year": "float", "Deaths": "float", "All ages": "float"})
+main_data = main_data.astype({"Year": "float", "Deaths": "float"})
 main_data["Sex"] = main_data["Sex"].astype("category")
 main_data["Region"] = main_data["Region"].astype("category")
 
@@ -657,7 +658,7 @@ print(numerical_summary)
 # Grouped summaries by Region and Age Group
 grouped_summary = (
     merged_data.groupby(["Region", "Age_Group"])
-    .agg(
+    .aggregate(
         Total_Deaths=("Deaths", "sum"),
         Avg_Age_Rate=("Age_Rate", "mean"),
         Deaths_Rate_Correlation=lambda x: x.corr(merged_data.loc[x.index, "Age_Rate"])
