@@ -65,7 +65,7 @@ sources, namely, Public Health England and the Office for National Statistics (O
 2. **Run the Project**:
    - Execute the master script:
      ```R
-     source("code/runScripts.R")
+     source("runScripts.R")
      ```
 
 3. **Outputs**:
