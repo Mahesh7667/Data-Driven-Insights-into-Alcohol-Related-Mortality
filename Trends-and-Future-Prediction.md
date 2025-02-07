@@ -25,7 +25,7 @@
 
   <!-- Center image -->
   <div style="flex: 1; max-width: 500px; text-align: center;">
-    <img src="./path-to-your-image.png" width="400" style="border: 3px solid black; box-shadow: 5px 5px 10px gray;">
+    <img src="./meta/Last_Sip.webp" width="400" style="border: 3px solid black; box-shadow: 5px 5px 10px gray;">
     <p><i>A data-driven visualization of alcohol-related deaths in the UK</i></p>
   </div>
 
