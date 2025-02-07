@@ -1,5 +1,3 @@
-# **The Sobering Picture: Alcohol-Related Deaths in the UK though visuals🍷📊**
-
 <meta property="og:title" content="The Sobering Picture"/>
 <meta property="og:image" content="https://mahesh7667.github.io/Data-Driven-Insights-into-Alcohol-Related-Mortality/meta/visualisation_thumbnail.png"/>
 <meta property="og:description" content="The Sobering Picture: Alcohol-Related Deaths in the UK though visuals"/>
@@ -8,10 +6,65 @@
 <meta property="og:image:height" content="627"/>
 <meta property="og:type" content="website"/> 
 
-## Overview
-Alcohol-specific deaths are a growing public health issue in the United Kingdom. These deaths result from conditions directly caused by alcohol consumption, such as liver cirrhosis, alcohol poisoning, and alcoholic hepatitis. Understanding the patterns of these deaths is critical for tackling the significant social, economic, and healthcare challenges they create. This project uses clear, engaging visualizations to uncover how alcohol-specific deaths vary by age, sex, region, and time. The goal is to make these insights accessible to everyone, whether you're a policymaker, a healthcare provider, or simply someone who cares about public health.
+<div style="border: 5px double black; padding: 20px; background-color: #f5f0e1; font-family: 'Georgia', serif;">
 
----
+ <!-- Newspaper Headline -->
+  <div style="width: 100%; text-align: center;">
+    <h1 style="font-family: 'Times New Roman', serif; font-size: 32px; font-weight: bold; margin-bottom: 10px;">📰 The Sobering Picture</h1>
+    <h2 style="font-family: 'Times New Roman', serif; font-size: 20px; font-weight: bold; color: gray;">Alcohol-Related Deaths in the UK Reach Concerning Levels 🍷</h2>
+  </div>
+  <hr />
+
+<div style="display: flex; flex-wrap: wrap; gap: 15px;">
+  <!-- Left column for text -->
+  <div style="flex: 2; font-size: 18px; text-align: justify;">
+
+  <p> 
+ Alcohol-specific deaths refer to fatalities caused solely by alcohol consumption, where alcohol is the direct and underlying cause of death. These deaths are attributed to conditions such as <b>liver cirrhosis, alcohol poisoning, and alcoholic hepatitis</b>, which result from prolonged alcohol misuse or acute alcohol intoxication. In the United Kingdom, alcohol-specific deaths have been rising, making them a critical public health issue. These deaths vary significantly across different demographics (age and sex), geographical regions, and time periods. Identifying these variations can reveal high-risk groups and trends, providing valuable insights for healthcare professionals, policymakers, and public health organizations.
+  </p>
+
+  </div>
+
+  <!-- Right column for image -->
+  <div style="flex: 1; text-align: center;">
+    <img src="./meta/Sobering_Picture.webp" width="100%" style="border: 3px solid black; box-shadow: 5px 5px 10px gray;">
+    <p><i>🚨 A data-driven snapshot of alcohol-related deaths</i></p>
+  </div>
+
+</div>
+
+<hr />
+
+<p> 
+ Understanding alcohol-specific death patterns is essential due to their profound social, economic, and healthcare implications. 
+
+<div style="display: flex; flex-wrap: wrap; gap: 15px;">
+<!-- Right column for image -->
+  <div style="flex: 1; text-align: center;">
+    <img src="./output/bubbleMap.png" width="60%" style="border: 3px solid black; box-shadow: 5px 5px 10px gray;">
+    <p><i>🚨 A data-driven snapshot of alcohol-related deaths</i></p>
+  </div>
+  <!-- Left column for text -->
+  <div style="flex: 2; font-size: 18px; text-align: justify;">
+
+  <p>
+
+<b>1. Public Health Significance
+Rising Death Rates: </b>Alcohol-specific deaths have been increasing, particularly among middle-aged individuals, necessitating urgent public health interventions.
+<b>2. Economic Burden:</b>
+Alcohol misuse places a financial strain on healthcare systems due to the high costs of treating alcohol-related conditions.
+<b>3. Policy and Healthcare Interventions</b>
+Policymakers need accurate data to implement effective alcohol control policies.
+  </p>
+
+  </div>
+<p>By presenting this information through <b>engaging</b> and <b>intuitive visualizations</b>, this project ensures that stakeholders from policymakers to the general public <b>can understand, interpret, and act upon these insights effectively</b>. The ultimate goal is to <b>support data-driven policies and interventions</b> that reduce alcohol-related harm and save lives in the UK.</p>
+  
+
+</div>
+</div>
+
+<hr />
 
 ## What This Project Shows
 <img src="output/combined.png" width="800" height="600">
