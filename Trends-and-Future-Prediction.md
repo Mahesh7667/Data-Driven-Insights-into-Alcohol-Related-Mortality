@@ -13,7 +13,7 @@
   <div style="flex: 1; max-width: 400px; text-align: justify; font-size: 18px;">
     <h2>📢 A Public Health Crisis</h2>
     <p>Alcohol-specific deaths in the UK are rising at an alarming rate, particularly among middle-aged individuals (45-64 years). 
-    The leading cause remains **alcoholic liver disease**, accounting for over 70% of alcohol-related fatalities. 
+    The leading cause remains <b></b>alcoholic liver disease</b>, accounting for over 70% of alcohol-related fatalities. 
     This issue affects not just individuals but entire communities, straining healthcare systems and increasing societal costs.</p>
 
     <h3>📊 Key Findings:</h3>
@@ -32,8 +32,9 @@
   <!-- Right column for text -->
   <div style="flex: 1; max-width: 400px; text-align: justify; font-size: 18px;">
     <h2>🚨 The Growing Concern</h2>
-    <p>Despite government regulations and public awareness campaigns, alcohol-related deaths continue to rise. 
-    **Why?** Factors such as affordability, accessibility, and cultural drinking norms all play a role. 
+    <p>Despite government regulations and public awareness campaigns, alcohol-related deaths continue to rise.  
+    <br />
+    <b>Why?</b> Factors such as affordability, accessibility, and cultural drinking norms all play a role. 
     With rising socioeconomic disparities, certain demographics remain disproportionately affected.</p>
 
     <h3>💡 What’s Next?</h3>
