@@ -7,6 +7,46 @@
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="627"/>
 <meta property="og:type" content="website"/> 
+<div style="display: flex; align-items: center; justify-content: center; gap: 20px; flex-wrap: wrap;">
+
+  <!-- Left column for text -->
+  <div style="flex: 1; max-width: 400px; text-align: justify; font-size: 18px;">
+    <h2>📢 A Public Health Crisis</h2>
+    <p>Alcohol-specific deaths in the UK are rising at an alarming rate, particularly among middle-aged individuals (45-64 years). 
+    The leading cause remains **alcoholic liver disease**, accounting for over 70% of alcohol-related fatalities. 
+    This issue affects not just individuals but entire communities, straining healthcare systems and increasing societal costs.</p>
+
+    <h3>📊 Key Findings:</h3>
+    - England and Scotland have the **highest mortality rates** 📈  
+    - Deaths **peaked post-2015**, highlighting recent trends  
+    - Liver disease dominates, with mental health issues also contributing  
+    - Younger groups have **lower** mortality, but risks are increasing  
+  </div>
+
+  <!-- Center image -->
+  <div style="flex: 1; max-width: 500px; text-align: center;">
+    <img src="./path-to-your-image.png" width="400" style="border: 3px solid black; box-shadow: 5px 5px 10px gray;">
+    <p><i>A data-driven visualization of alcohol-related deaths in the UK</i></p>
+  </div>
+
+  <!-- Right column for text -->
+  <div style="flex: 1; max-width: 400px; text-align: justify; font-size: 18px;">
+    <h2>🚨 The Growing Concern</h2>
+    <p>Despite government regulations and public awareness campaigns, alcohol-related deaths continue to rise. 
+    **Why?** Factors such as affordability, accessibility, and cultural drinking norms all play a role. 
+    With rising socioeconomic disparities, certain demographics remain disproportionately affected.</p>
+
+    <h3>💡 What’s Next?</h3>
+    - Stronger **public health policies** are needed 📜  
+    - More funding for **rehabilitation programs** 🏥  
+    - Raising awareness through **education & outreach** 🎓  
+    - Data-driven insights to inform **policy decisions** 📈  
+  </div>
+
+</div>
+
+
+
 
 This project explores **alcohol-related mortality trends** and uncovers key insights into the factors driving these trends. Through engaging visualizations and data analysis, the aim is to highlight important patterns and provide valuable information to guide public health decisions.
 
