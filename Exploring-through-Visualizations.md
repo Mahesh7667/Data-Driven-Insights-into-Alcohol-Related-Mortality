@@ -10,7 +10,7 @@
   <!-- Newspaper Headline -->
   <div style="width: 100%; text-align: center;">
     <h1 style="font-family: 'Times New Roman', serif; font-size: 32px; font-weight: bold; margin-bottom: 10px;">📰 The Sobering Picture</h1>
-    <h2 style="font-family: 'Times New Roman', serif; font-size: 20px; font-weight: bold; color: gray;">Alcohol-Related Deaths in the UK Reach Concerning Levels 🍷</h2>
+    <h2 style="font-family: 'Times New Roman', serif; font-size: 20px; font-weight: bold; color: gray;">Alcohol-Related Deaths in the UK Reach Concerning Levels 🍷  </h2>
   </div>
   <hr />
   <div style="display: flex; flex-wrap: wrap; gap: 15px;">
@@ -43,9 +43,9 @@
       </p>
     </div>
     <p>By presenting this information through <b>engaging</b> and <b>intuitive visualizations</b>, this project ensures that stakeholders from policymakers to the general public <b>can understand, interpret, and act upon these insights effectively</b>. The ultimate goal is to <b>support data-driven policies and interventions</b> that reduce alcohol-related harm and save lives in the UK. </p>
-  </div>
-</div>
+  </div></div>
 
+<div></div>
 ---
 
 
