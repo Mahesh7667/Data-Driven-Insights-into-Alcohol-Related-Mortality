@@ -7,20 +7,20 @@
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="627"/>
 <meta property="og:type" content="website"/> 
-<div style="display: flex; align-items: center; justify-content: center; gap: 20px; flex-wrap: wrap;">
+<div style="display: flex; align-items: center; justify-content: center; gap: 20px; flex-wrap: wrap; border: 5px double black;padding: 20px;background-color: #f5f0e1;font-family: 'Georgia', serif;">
 
   <!-- Left column for text -->
   <div style="flex: 1; max-width: 400px; text-align: justify; font-size: 18px;">
     <h2>📢 A Public Health Crisis</h2>
     <p>Alcohol-specific deaths in the UK are rising at an alarming rate, particularly among middle-aged individuals (45-64 years). 
-    The leading cause remains <b></b>alcoholic liver disease</b>, accounting for over 70% of alcohol-related fatalities. 
+    The leading cause remains <b>alcoholic liver disease</b>, accounting for over 70% of alcohol-related fatalities. 
     This issue affects not just individuals but entire communities, straining healthcare systems and increasing societal costs.</p>
 
     <h3>📊 Key Findings:</h3>
-    - England and Scotland have the **highest mortality rates** 📈  
-    - Deaths **peaked post-2015**, highlighting recent trends  
+    - England and Scotland have the <b>highest mortality rates</b> 📈  
+    - Deaths <b>peaked post-2015</b>, highlighting recent trends  
     - Liver disease dominates, with mental health issues also contributing  
-    - Younger groups have **lower** mortality, but risks are increasing  
+    - Younger groups have <b>lower</b> mortality, but risks are increasing  
   </div>
 
   <!-- Center image -->
@@ -38,17 +38,17 @@
     With rising socioeconomic disparities, certain demographics remain disproportionately affected.</p>
 
     <h3>💡 What’s Next?</h3>
-    - Stronger **public health policies** are needed 📜  
-    - More funding for **rehabilitation programs** 🏥  
-    - Raising awareness through **education & outreach** 🎓  
-    - Data-driven insights to inform **policy decisions** 📈  
+    - Stronger <b>public health policies</b> are needed 📜  
+    - More funding for <b>rehabilitation programs</b> 🏥  
+    - Raising awareness through <b>education & outreach</b> 🎓  
+    - Data-driven insights to inform <b>policy decisions</b> 📈  
   </div>
 
 </div>
 
 
 
-
+<br/>
 This project explores **alcohol-related mortality trends** and uncovers key insights into the factors driving these trends. Through engaging visualizations and data analysis, the aim is to highlight important patterns and provide valuable information to guide public health decisions.
 
 ---
