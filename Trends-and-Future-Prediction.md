@@ -44,12 +44,9 @@
     - Data-driven insights to inform <b>policy decisions</b> 📈  
   </div>
 
-</div>
-
-
-
 <br/>
 This project explores **alcohol-related mortality trends** and uncovers key insights into the factors driving these trends. Through engaging visualizations and data analysis, the aim is to highlight important patterns and provide valuable information to guide public health decisions.
+</div>
 
 ---
 
