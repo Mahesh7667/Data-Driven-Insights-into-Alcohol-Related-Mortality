@@ -42,10 +42,10 @@
         <b>1. Public Health Significance Rising Death Rates: </b>Alcohol-specific deaths have been increasing, particularly among middle-aged individuals, necessitating urgent public health interventions. <b>2. Economic Burden:</b> Alcohol misuse places a financial strain on healthcare systems due to the high costs of treating alcohol-related conditions. <b>3. Policy and Healthcare Interventions</b> Policymakers need accurate data to implement effective alcohol control policies.
       </p>
     </div>
+    </div>
     <p>By presenting this information through <b>engaging</b> and <b>intuitive visualizations</b>, this project ensures that stakeholders from policymakers to the general public <b>can understand, interpret, and act upon these insights effectively</b>. The ultimate goal is to <b>support data-driven policies and interventions</b> that reduce alcohol-related harm and save lives in the UK. </p>
-  </div></div>
+  </div>
 
-<div></div>
 ---
 
 
@@ -135,3 +135,4 @@ Feel free to reach out or explore the project further: 📧 [My Email](mailto:ma
 ---
 
 Thank you for visiting! I hope this project inspires meaningful discussions about public health and the power of data. 💻📊
+
