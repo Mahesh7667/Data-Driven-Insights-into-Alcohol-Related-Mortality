@@ -1,5 +1,3 @@
-# Last Sip: Unveiling Alcohol Mortality Trends and Forecasts 🍾🍺🔍
-
 <meta property="og:title" content="Last Sip"/>
 <meta property="og:image" content="https://mahesh7667.github.io/Data-Driven-Insights-into-Alcohol-Related-Mortality/meta/last_sip.png"/>
 <meta property="og:description" content="Last Sip: Unveiling Alcohol Mortality Trends and Forecasts"/>
@@ -8,7 +6,7 @@
 <meta property="og:image:height" content="627"/>
 <meta property="og:type" content="website"/> 
 <div style="display: flex; align-items: center; justify-content: center; gap: 20px; flex-wrap: wrap; border: 5px double black;padding: 20px;background-color: #f3eef8;font-family: 'Georgia', serif;">
-
+<h1 style="color:#998ea4">Last Sip: Unveiling Alcohol Mortality Trends and Forecasts 🍾🍺🔍</h1>
   <!-- Left column for text -->
   <div style="flex: 1; max-width: 400px; text-align: justify; font-size: 18px;">
     <h2 style="color:#998ea4">📢 A Public Health Crisis</h2>
