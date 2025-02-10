@@ -15,10 +15,12 @@
     This issue affects not just individuals but entire communities, straining healthcare systems and increasing societal costs.</p>
 
     <h3 style="color:#998ea4">📊 Key Findings:</h3>
-    - England and Scotland have the <b>highest mortality rates</b> 📈  
-    - Deaths <b>peaked post-2015</b>, highlighting recent trends  
-    - Liver disease dominates, with mental health issues also contributing  
-    - Younger groups have <b>lower</b> mortality, but risks are increasing  
+    <ul>
+      <li>England and Scotland have the <b>highest mortality rates</b> 📈</li>
+      <li>Deaths <b>peaked post-2015</b>, highlighting recent trends</li>
+      <li>Liver disease dominates, with mental health issues also contributing</li>
+      <li>Younger groups have <b>lower</b> mortality, but risks are increasing</li>
+    </ul>
   </div>
 
   <!-- Center image -->
@@ -36,10 +38,12 @@
     With rising socioeconomic disparities, certain demographics remain disproportionately affected.</p>
 
     <h3 style="color:#998ea4">💡 What’s Next?</h3>
-    - Stronger <b>public health policies</b> are needed 📜  
-    - More funding for <b>rehabilitation programs</b> 🏥  
-    - Raising awareness through <b>education & outreach</b> 🎓  
-    - Data-driven insights to inform <b>policy decisions</b> 📈  
+    <ul>
+      <li> Stronger <b>public health policies</b> are needed 📜</li>
+      <li>More funding for <b>rehabilitation programs</b> 🏥</li>
+      <li>Raising awareness through <b>education & outreach</b> 🎓 </li>
+      <li>Data-driven insights to inform <b>policy decisions</b> 📈 </li>
+    </ul>
   </div>
 
 <br/>
