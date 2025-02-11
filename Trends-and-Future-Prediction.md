@@ -6,10 +6,10 @@
 <meta property="og:image:height" content="627"/>
 <meta property="og:type" content="website"/> 
 <div style="display: flex; align-items: center; justify-content: center; gap: 20px; flex-wrap: wrap; border: 5px double black;padding: 20px;background-color: #f3eef8;font-family: 'Georgia', serif;">
-<h1 style="color:#998ea4">Last Sip: Unveiling Alcohol Mortality Trends and Forecasts 🍾🍺🔍</h1>
+<h2 style="color:#998ea4">Last Sip: Unveiling Alcohol Mortality Trends and Forecasts 🍾🍺🔍</h2>
   <!-- Left column for text -->
   <div style="flex: 1; max-width: 400px; text-align: justify; font-size: 18px;">
-    <h2 style="color:#998ea4">📢 A Public Health Crisis</h2>
+    <h3 style="color:#998ea4">📢 A Public Health Crisis</h3>
     <p>Alcohol-specific deaths in the UK are rising at an alarming rate, particularly among middle-aged individuals (45-64 years). 
     The leading cause remains <b>alcoholic liver disease</b>, accounting for over 70% of alcohol-related fatalities. 
     This issue affects not just individuals but entire communities, straining healthcare systems and increasing societal costs.</p>
@@ -31,7 +31,7 @@
 
   <!-- Right column for text -->
   <div style="flex: 1; max-width: 400px; text-align: justify; font-size: 18px;">
-    <h2 style="color:#998ea4">🚨 The Growing Concern</h2>
+    <h3 style="color:#998ea4">🚨 The Growing Concern</h3>
     <p>Despite government regulations and public awareness campaigns, alcohol-related deaths continue to rise.  
     <br />
     <b>Why?</b> Factors such as affordability, accessibility, and cultural drinking norms all play a role. 
