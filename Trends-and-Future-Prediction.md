@@ -45,6 +45,26 @@
     </ul>
   </div>
 
+<div style="flex: 1; max-width: 400px; text-align: justify; font-size: 18px;">
+    <h3 style="color:#998ea4">📊 Key Findings:</h3>
+    <ul>
+      <li>England and Scotland have the <b>highest mortality rates</b> 📈</li>
+      <li>Deaths <b>peaked post-2015</b>, highlighting recent trends</li>
+      <li>Liver disease dominates, with mental health issues also contributing</li>
+      <li>Younger groups have <b>lower</b> mortality, but risks are increasing</li>
+    </ul>
+  </div>
+  <div style="flex: 1; max-width: 400px; text-align: justify; font-size: 18px;">
+
+    <h3 style="color:#998ea4">💡 What’s Next?</h3>
+    <ul>
+      <li> Stronger <b>public health policies</b> are needed 📜</li>
+      <li>More funding for <b>rehabilitation programs</b> 🏥</li>
+      <li>Raising awareness through <b>education & outreach</b> 🎓 </li>
+      <li>Data-driven insights to inform <b>policy decisions</b> 📈 </li>
+    </ul>
+  </div>
+
 <br/>
 This project explores <b>alcohol-related mortality trends</b> and uncovers key insights into the factors driving these trends. Through engaging visualizations and data analysis, the aim is to highlight important patterns and provide valuable information to guide public health decisions.
 </div>
