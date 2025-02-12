@@ -26,7 +26,6 @@
   <!-- Center image -->
   <div style="flex: 1; max-width: 500px; text-align: center;">
     <img src="./meta/Last_Sip.webp" width="400" style="border: 3px solid black; box-shadow: 5px 5px 10px gray;">
-    <p><i>A data-driven visualization of alcohol-related deaths in the UK</i></p>
   </div>
 
   <!-- Right column for text -->
@@ -47,7 +46,7 @@
   </div>
 
 <br/>
-This project explores **alcohol-related mortality trends** and uncovers key insights into the factors driving these trends. Through engaging visualizations and data analysis, the aim is to highlight important patterns and provide valuable information to guide public health decisions.
+This project explores <b>alcohol-related mortality trends</b> and uncovers key insights into the factors driving these trends. Through engaging visualizations and data analysis, the aim is to highlight important patterns and provide valuable information to guide public health decisions.
 </div>
 
 ---
