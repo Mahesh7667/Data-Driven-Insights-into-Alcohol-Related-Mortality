@@ -20,7 +20,6 @@
       </div>
       <div style="flex: 1; text-align: center;">
         <img src="./meta/Sobering_Picture.webp" width="100%" style="border: 3px solid black; box-shadow: 5px 5px 10px gray;" alt="Sobering_Picture">
-        <p><i>🚨 A data-driven snapshot of alcohol-related deaths</i></p>
       </div>
     </div>
     <hr>
@@ -28,10 +27,13 @@
     <div style="display: flex; flex-wrap: wrap; gap: 15px;">
       <div style="flex: 1; text-align: center;">
         <img src="./output/bubbleMap.png" width="60%" style="border: 3px solid black; box-shadow: 5px 5px 10px gray;" alt="bubbleMap">
-        <p><i>🚨 A data-driven snapshot of alcohol-related deaths</i></p>
       </div>
       <div style="flex: 2; font-size: 18px; text-align: justify;">
-        <p><b>1. Public Health Significance Rising Death Rates:</b> Alcohol-specific deaths have been increasing, particularly among middle-aged individuals, necessitating urgent public health interventions. <b>2. Economic Burden:</b> Alcohol misuse places a financial strain on healthcare systems due to the high costs of treating alcohol-related conditions. <b>3. Policy and Healthcare Interventions</b> Policymakers need accurate data to implement effective alcohol control policies.</p>
+        <ul>
+    <li><b>Public Health Significance – Rising Death Rates:</b> Alcohol-specific deaths have been increasing, particularly among middle-aged individuals, necessitating urgent public health interventions.</li>
+    <li><b>Economic Burden:</b> Alcohol misuse places a financial strain on healthcare systems due to the high costs of treating alcohol-related conditions.</li>
+    <li><b>Policy and Healthcare Interventions:</b> Policymakers need accurate data to implement effective alcohol control policies.</li>
+      </ul>
       </div>
     </div>
     <p>By presenting this information through <b>engaging</b> and <b>intuitive visualizations</b>, this project ensures that stakeholders from policymakers to the general public <b>can understand, interpret, and act upon these insights effectively</b>. The ultimate goal is to <b>support data-driven policies and interventions</b> that reduce alcohol-related harm and save lives in the UK.</p>
@@ -58,20 +60,16 @@
     <p>Every life saved represents a win for individuals, families, and communities, reducing the broader societal burden of alcohol-related harm.</p>
     <hr style="border: 1px solid #ccc;">
     <h2 style="color: #2c3e50;">Key Visualisations</h2>
-    <h3 style="color: #34495e;">1. Heatmap</h3>
-    <p><strong>What it shows:</strong> Trends in alcohol-specific deaths across different age groups and years.</p>
+    <h3 style="color: #34495e;">1. Trends in alcohol-specific deaths across different age groups and years.</h3>
     <p><strong>Key takeaway:</strong> Middle-aged groups (40–69 years) consistently face the highest risk. Death rates have surged in recent years, especially from 2015 onward.</p>
-    <p><strong>Why it matters:</strong> This visualization reveals where interventions are needed most urgently, both in terms of age demographics and time periods.</p><img src="output/heatmap.png" width="800" height="600" style="display: block; margin: auto;" alt="heatmap">
-    <h3 style="color: #34495e;">2. Geospatial Map</h3>
-    <p><strong>What it shows:</strong> Regional differences in alcohol-specific deaths for the baseline year of 2001.</p>
+    <p><strong>Why it matters:</strong> This heatmap visualization reveals where interventions are needed most urgently, both in terms of age demographics and time periods.</p><img src="output/heatmap.png" width="800" height="600" style="display: block; margin: auto;" alt="heatmap">
+    <h3 style="color: #34495e;">2. Regional differences in alcohol-specific deaths for the baseline year of 2001.</h3>
     <p><strong>Key takeaway:</strong> Scotland stands out with the highest mortality rates, while Wales and Northern Ireland report significantly fewer deaths.</p>
     <p><strong>Why it matters:</strong> The map highlights the geographic disparities in alcohol-related harm, supporting region-specific policy responses.</p><iframe src="output/geospatial.html" width="800" height="600" style="display: block; margin: auto; border: none;"></iframe><br>
-    <h3 style="color: #34495e;">3. Scatter Plot</h3>
-    <p><strong>What it shows:</strong> Disparities in alcohol-specific deaths by age group and sex.</p>
+    <h3 style="color: #34495e;">3. Disparities in alcohol-specific deaths by age group and sex.</h3>
     <p><strong>Key takeaway:</strong> Males dominate across all age groups, with a sharp peak in the 50–59 age range. Females are consistently affected at lower rates.</p>
-    <p><strong>Why it matters:</strong> This visualization underscores the need for gender-specific health interventions and further research into the underlying causes of these disparities.</p><img src="output/scatter_plot.png" width="800" height="600" style="display: block; margin: auto;" alt="scatter_plot">
-    <h3 style="color: #34495e;">4. Bubble Plot</h3>
-    <p><strong>What it shows:</strong> Regional and sex-based differences in alcohol-specific deaths.</p>
+    <p><strong>Why it matters:</strong> This Scatter plot underscores the need for gender-specific health interventions and further research into the underlying causes of these disparities.</p><img src="output/scatter_plot.png" width="800" height="600" style="display: block; margin: auto;" alt="scatter_plot">
+    <h3 style="color: #34495e;">4. Regional and sex-based differences in alcohol-specific deaths.</h3>
     <p><strong>Key takeaway:</strong> England and Scotland dominate in terms of total deaths, with males disproportionately affected. Wales and Northern Ireland report the fewest deaths.</p>
     <p><strong>Why it matters:</strong> The bubble plot visually combines regional and sex-based differences, providing a holistic view of where interventions should be focused.</p><img src="output/bubblePlot.png" width="800" height="600" style="display: block; margin: auto;" alt="bubblePlot">
     <hr style="border: 1px solid #ccc;">
