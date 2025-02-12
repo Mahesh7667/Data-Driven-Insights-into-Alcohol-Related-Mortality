@@ -11,42 +11,58 @@
     <!-- Title Section -->
     <h2 style="width: 100%; text-align: center; color:#998ea4;">Last Sip: Unveiling Alcohol Mortality Trends and Forecasts 🍾🍺🔍</h2>
     
-    <!-- Left Column: Public Health Crisis -->
-    <div style="flex: 1; min-width: 300px; max-width: 400px; text-align: justify; font-size: 18px;">
-        <h3 style="color:#998ea4">📢 A Public Health Crisis</h3>
-        <p>Alcohol-specific deaths in the UK are rising at an alarming rate, particularly among middle-aged individuals (45-64 years). 
-        The leading cause remains <b>alcoholic liver disease</b>, accounting for over 70% of alcohol-related fatalities. 
-        This issue affects not just individuals but entire communities, straining healthcare systems and increasing societal costs.</p>
+    <!-- Row for "A Public Health Crisis", Image, and "Key Findings" -->
+    <div style="display: flex;flex-wrap: wrap;justify-content: space-between;align-items: self-start;width: 100%;max-width: 1000px;gap: 20px;">
+        
+        <!-- Left Column: A Public Health Crisis -->
+        <div style="flex: 1; min-width: 280px; max-width: 400px; text-align: justify; font-size: 18px;">
+            <h3 style="color:#998ea4">📢 A Public Health Crisis</h3>
+            <p>Alcohol-specific deaths in the UK are rising at an alarming rate, particularly among middle-aged individuals (45-64 years). 
+            The leading cause remains <b>alcoholic liver disease</b>, accounting for over 70% of alcohol-related fatalities. 
+            This issue affects not just individuals but entire communities, straining healthcare systems and increasing societal costs.</p>
+        </div>
 
-        <h3 style="color:#998ea4">📊 Key Findings:</h3>
-        <ul>
-            <li>England and Scotland have the <b>highest mortality rates</b> 📈</li>
-            <li>Deaths <b>peaked post-2015</b>, highlighting recent trends</li>
-            <li>Liver disease dominates, with mental health issues also contributing</li>
-            <li>Younger groups have <b>lower</b> mortality, but risks are increasing</li>
-        </ul>
+        <!-- Center Column: Image (Aligned with Headings) -->
+        <div style="flex: 1;min-width: 280px;max-width: 350px;text-align: center;align-self: center;">
+            <img src="./meta/Last_Sip.webp" width="100%" style="max-width: 300px; border: 3px solid black; box-shadow: 5px 5px 10px gray;">
+        </div>
+
+        <!-- Right Column: Key Findings -->
+        <div style="flex: 1; min-width: 280px; max-width: 400px; text-align: justify; font-size: 18px;">
+            <h3 style="color:#998ea4">📊 Key Findings:</h3>
+            <ul>
+                <li>England and Scotland have the <b>highest mortality rates</b> 📈</li>
+                <li>Deaths <b>peaked post-2015</b>, highlighting recent trends</li>
+                <li>Liver disease dominates, with mental health issues also contributing</li>
+                <li>Younger groups have <b>lower</b> mortality, but risks are increasing</li>
+            </ul>
+        </div>
+
     </div>
 
-    <!-- Center Column: Image -->
-    <div style="flex: 1; min-width: 300px; max-width: 500px; text-align: center;">
-        <img src="./meta/Last_Sip.webp" width="100%" style="max-width: 400px; border: 3px solid black; box-shadow: 5px 5px 10px gray;">
-    </div>
+    <!-- Row for "Growing Concern" & "What's Next?" Sections -->
+    <div style="display: flex; flex-wrap: wrap; justify-content: space-between; width: 100%; max-width: 1000px; margin-top: 20px;">
+        
+        <!-- Left Column: The Growing Concern -->
+        <div style="flex: 1; min-width: 300px; max-width: 480px; text-align: justify; font-size: 18px;">
+            <h3 style="color:#998ea4">🚨 The Growing Concern</h3>
+            <p>Despite government regulations and public awareness campaigns, alcohol-related deaths continue to rise.  
+            <br>
+            <b>Why?</b> Factors such as affordability, accessibility, and cultural drinking norms all play a role. 
+            With rising socioeconomic disparities, certain demographics remain disproportionately affected.</p>
+        </div>
 
-    <!-- Right Column: The Growing Concern -->
-    <div style="flex: 1; min-width: 300px; max-width: 400px; text-align: justify; font-size: 18px;">
-        <h3 style="color:#998ea4">🚨 The Growing Concern</h3>
-        <p>Despite government regulations and public awareness campaigns, alcohol-related deaths continue to rise.  
-        <br />
-        <b>Why?</b> Factors such as affordability, accessibility, and cultural drinking norms all play a role. 
-        With rising socioeconomic disparities, certain demographics remain disproportionately affected.</p>
+        <!-- Right Column: What's Next? -->
+        <div style="flex: 1; min-width: 300px; max-width: 480px; text-align: justify; font-size: 18px;">
+            <h3 style="color:#998ea4">💡 What’s Next?</h3>
+            <ul>
+                <li> Stronger <b>public health policies</b> are needed 📜</li>
+                <li>More funding for <b>rehabilitation programs</b> 🏥</li>
+                <li>Awareness through <b>education &amp; outreach</b> 🎓 </li>
+                <li>Data-driven insights to inform <b>policy decisions</b> 📈 </li>
+            </ul>
+        </div>
 
-        <h3 style="color:#998ea4">💡 What’s Next?</h3>
-        <ul>
-            <li> Stronger <b>public health policies</b> are needed 📜</li>
-            <li>More funding for <b>rehabilitation programs</b> 🏥</li>
-            <li>Raising awareness through <b>education & outreach</b> 🎓 </li>
-            <li>Data-driven insights to inform <b>policy decisions</b> 📈 </li>
-        </ul>
     </div>
 
     <!-- Summary Section -->
@@ -56,7 +72,6 @@
     </div>
 
 </div>
-
 
 ---
 
